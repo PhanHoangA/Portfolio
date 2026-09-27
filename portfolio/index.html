@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoang An | Software Engineering Student & Junior Backend Developer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Hoang An, Software Engineering Student at FPT University & Junior Backend Developer specializing in Java, Spring Boot, SQL Server, and RESTful APIs.">
+  <meta name="keywords" content="Hoang An, Software Engineer, Backend Developer, Java Developer, Spring Boot, SQL Server, FPT University, Portfolio">
+  <meta name="author" content="Hoang An">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons 1.11.3 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100" tabindex="0">
+
+  <!-- =========================================================================
+       1. NAVBAR
+       ========================================================================= -->
+  <nav id="mainNavbar" class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+      <!-- Logo: <AN /> -->
+      <a class="navbar-brand brand-logo" href="#home" id="nav-brand-logo">
+        <span class="logo-bracket">&lt;</span><span class="logo-text">AN</span> <span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <!-- Mobile Toggler -->
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list fs-4"></i>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#terminal">Terminal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Download CV Button -->
+        <div class="d-flex align-items-center">
+          <a href="#contact" class="btn btn-nav-cv" id="navDownloadCvBtn">
+            <i class="bi bi-file-earmark-arrow-down-fill"></i>
+            <span>Download CV</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========================================================================
+       2. HERO SECTION
+       ========================================================================= -->
+  <section id="home" class="hero-section tech-grid-bg">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        
+        <!-- Left Column: Introduction & Action Buttons -->
+        <div class="col-lg-6">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>SOFTWARE ENGINEERING STUDENT</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="hero-name-accent">Hoang An.</span>
+          </h1>
+
+          <div class="hero-subtitle-container">
+            <span class="hero-subtitle">
+              <span id="typewriter-text">Backend Developer</span><span class="typing-cursor">|</span>
+            </span>
+          </div>
+
+          <p class="hero-intro">
+            I'm passionate about building reliable backend systems, learning software engineering principles, and turning ideas into practical applications.
+          </p>
+
+          <!-- Buttons: View Projects & Download CV -->
+          <div class="d-flex flex-wrap gap-3 hero-cta-group">
+            <a href="#projects" class="btn btn-custom-primary" id="heroViewProjectsBtn">
+              <span>View My Projects</span>
+              <i class="bi bi-arrow-down-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-custom-outline" id="heroDownloadCvBtn">
+              <i class="bi bi-file-earmark-person"></i>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="hero-socials">
+            <a href="https://github.com/PhanHoangA" target="_blank" rel="noopener noreferrer" class="social-pill" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub /PhanHoangA" aria-label="GitHub Profile">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-pill" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn Profile" aria-label="LinkedIn Profile">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:anphan622@gmail.com" class="social-pill" data-bs-toggle="tooltip" data-bs-placement="top" title="Email: anphan622@gmail.com" aria-label="Send an Email">
+              <i class="bi bi-envelope-at-fill"></i>
+            </a>
+            <a href="tel:0369490800" class="social-pill" data-bs-toggle="tooltip" data-bs-placement="top" title="Phone: 0369490800" aria-label="Call Phone">
+              <i class="bi bi-telephone-fill"></i>
+            </a>
+            <span class="ms-2 text-muted small font-mono d-none d-sm-inline-flex align-items-center gap-1">
+              <i class="bi bi-geo-alt-fill text-danger"></i> FPT University, Vietnam
+            </span>
+          </div>
+        </div>
+
+        <!-- Right Column: Developer-themed Visual Card -->
+        <div class="col-lg-6">
+          <div class="developer-card-wrapper">
+            
+            <!-- Floating Tech Badges -->
+            <div class="floating-chip chip-1">
+              <i class="bi bi-cup-hot-fill text-danger"></i>
+              <span>Java 17 &amp; Spring</span>
+            </div>
+            <div class="floating-chip chip-2">
+              <i class="bi bi-database-fill text-primary"></i>
+              <span>SQL Server &amp; Clean Code</span>
+            </div>
+
+            <!-- Code Window Card -->
+            <div class="developer-card">
+              <!-- Window Header -->
+              <div class="terminal-header">
+                <div class="window-dots">
+                  <span class="window-dot dot-red"></span>
+                  <span class="window-dot dot-yellow"></span>
+                  <span class="window-dot dot-green"></span>
+                </div>
+                <div class="tab-title">
+                  <i class="bi bi-file-earmark-code-fill tab-icon"></i>
+                  <span>Developer.java</span>
+                </div>
+              </div>
+
+              <!-- Code Content -->
+              <div class="code-editor-body">
+                <pre><code><span class="line-num">1</span><span class="syn-comment">// Aspiring Backend Software Engineer</span>
+<span class="line-num">2</span><span class="syn-kw">public class</span> <span class="syn-type">Developer</span> {
+<span class="line-num">3</span>
+<span class="line-num">4</span>    <span class="syn-type">String</span> <span class="syn-var">name</span> = <span class="syn-str">"An"</span>;
+<span class="line-num">5</span>    <span class="syn-type">String</span> <span class="syn-var">role</span> = 
+<span class="line-num">6</span>        <span class="syn-str">"Backend Developer"</span>;
+<span class="line-num">7</span>
+<span class="line-num">8</span>    <span class="syn-kw">void</span> <span class="syn-fn">code</span>() {
+<span class="line-num">9</span>        <span class="syn-fn">learn</span>();
+<span class="line-num">10</span>       <span class="syn-fn">build</span>();
+<span class="line-num">11</span>       <span class="syn-fn">improve</span>();
+<span class="line-num">12</span>   }
+<span class="line-num">13</span>}</code></pre>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       3. ABOUT ME
+       ========================================================================= -->
+  <section id="about" class="section-padding bg-white">
+    <div class="container">
+      
+      <!-- Section Heading -->
+      <div class="text-center mb-5">
+        <span class="section-tag">// WHO I AM</span>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle mx-auto">
+          A dedicated Software Engineering student driven by backend craftsmanship, relational databases, and architectural best practices.
+        </p>
+      </div>
+
+      <div class="row align-items-center g-5">
+        
+        <!-- Left: Profile Image Container -->
+        <div class="col-lg-5">
+          <div class="profile-card-container">
+            <div class="profile-card">
+              <div class="profile-img-wrap">
+                <img src="assets/images/profile.png" alt="Hoang An - Software Engineering Student" class="profile-img">
+              </div>
+              <div class="profile-corner-badge">
+                <div class="name">Hoang An</div>
+                <div class="role">&lt;Software Engineering Student /&gt;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Professional Introduction & Statistics -->
+        <div class="col-lg-7">
+          <h3 class="h4 fw-bold mb-3 text-dark">
+            Passionate About Building Robust &amp; Scalable Backend Systems
+          </h3>
+          <p class="text-muted">
+            I am a Software Engineering student at FPT University with a deep focus on <strong>Backend Development</strong> and the <strong>Java ecosystem</strong>. My journey centers around understanding how reliable, high-performance systems work under the hood—from Object-Oriented Design to database normalization and RESTful API development.
+          </p>
+          <p class="text-muted">
+            Whether designing relational databases in SQL Server and MySQL, structuring MVC web apps using Java Servlet/JSP, or exploring Spring Boot, I enjoy breaking down complex problems and turning logical solutions into clean, maintainable software.
+          </p>
+
+          <!-- Highlights List -->
+          <ul class="about-features-list">
+            <li>
+              <i class="bi bi-check-circle-fill"></i>
+              <span><strong>Java &amp; Backend Engineering:</strong> Strong foundation in OOP, data structures, and MVC architectural design.</span>
+            </li>
+            <li>
+              <i class="bi bi-check-circle-fill"></i>
+              <span><strong>Database Design:</strong> Experience creating normalized ER diagrams, writing complex SQL queries, and optimizing indexes.</span>
+            </li>
+            <li>
+              <i class="bi bi-check-circle-fill"></i>
+              <span><strong>Teamwork &amp; Continuous Learning:</strong> Active participant in academic software projects, collaborative Git workflows, and technical problem-solving.</span>
+            </li>
+          </ul>
+
+          <!-- Statistics Cards Grid -->
+          <div class="row g-3 mt-2">
+            <div class="col-6 col-sm-3">
+              <div class="stat-card text-center">
+                <div class="stat-num">10+</div>
+                <div class="stat-label">Projects Built</div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3">
+              <div class="stat-card text-center">
+                <div class="stat-num">3+</div>
+                <div class="stat-label">Years Learning</div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3">
+              <div class="stat-card text-center">
+                <div class="stat-num">5+</div>
+                <div class="stat-label">Core Techs</div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3">
+              <div class="stat-card text-center">
+                <div class="stat-num">100%</div>
+                <div class="stat-label">Continuous Learning</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       4. SKILLS
+       ========================================================================= -->
+  <section id="skills" class="section-padding bg-light tech-grid-bg">
+    <div class="container">
+      
+      <!-- Section Heading -->
+      <div class="text-center mb-5">
+        <span class="section-tag">// TECHNICAL STACK</span>
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle mx-auto">
+          Technologies and tools I work with across backend architecture, databases, frontend interfaces, and development environments.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        
+        <!-- CATEGORY 1: Backend -->
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-category-card">
+            <div class="skill-header">
+              <div class="skill-icon-box skill-icon-backend">
+                <i class="bi bi-server"></i>
+              </div>
+              <div>
+                <h3 class="h6 fw-bold mb-0 text-dark">Backend</h3>
+                <small class="text-muted font-mono">Core Focus</small>
+              </div>
+            </div>
+
+            <!-- Skill Items with Progress -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> Java</span>
+                <span class="skill-level-text">Core &amp; OOP</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> Servlet / JSP</span>
+                <span class="skill-level-text">Proficient</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> Spring Boot</span>
+                <span class="skill-level-text">Active Practice</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 72%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> REST API</span>
+                <span class="skill-level-text">Structured</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 78%"></div>
+              </div>
+            </div>
+
+            <!-- Technology Badges -->
+            <div class="skill-badges-group">
+              <span class="skill-badge text-primary fw-semibold">C# / .NET</span>
+              <span class="skill-badge">MVC Pattern</span>
+              <span class="skill-badge">OOP</span>
+              <span class="skill-badge">Maven</span>
+              <span class="skill-badge">JDBC</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CATEGORY 2: Database -->
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-category-card">
+            <div class="skill-header">
+              <div class="skill-icon-box skill-icon-db">
+                <i class="bi bi-database"></i>
+              </div>
+              <div>
+                <h3 class="h6 fw-bold mb-0 text-dark">Database</h3>
+                <small class="text-muted font-mono">Storage &amp; Design</small>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> SQL Server</span>
+                <span class="skill-level-text">Proficient</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 82%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> MySQL</span>
+                <span class="skill-level-text">Familiar</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 75%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> Database Design</span>
+                <span class="skill-level-text">Normalized</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> Entity Framework</span>
+                <span class="skill-level-text">Academic Use</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 70%"></div>
+              </div>
+            </div>
+
+            <div class="skill-badges-group">
+              <span class="skill-badge">SQL Queries</span>
+              <span class="skill-badge">Indexing</span>
+              <span class="skill-badge">Triggers</span>
+              <span class="skill-badge">JPA / Hibernate</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CATEGORY 3: Frontend -->
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-category-card">
+            <div class="skill-header">
+              <div class="skill-icon-box skill-icon-frontend">
+                <i class="bi bi-layout-text-window-reverse"></i>
+              </div>
+              <div>
+                <h3 class="h6 fw-bold mb-0 text-dark">Frontend</h3>
+                <small class="text-muted font-mono">UI Integration</small>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> HTML5</span>
+                <span class="skill-level-text">Semantic</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> CSS3</span>
+                <span class="skill-level-text">Responsive</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> Bootstrap 5</span>
+                <span class="skill-level-text">Proficient</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> JavaScript</span>
+                <span class="skill-level-text">DOM &amp; Fetch</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 72%"></div>
+              </div>
+            </div>
+
+            <div class="skill-badges-group">
+              <span class="skill-badge">Responsive Grid</span>
+              <span class="skill-badge">Bootstrap Icons</span>
+              <span class="skill-badge">Vanilla JS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CATEGORY 4: Tools -->
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-category-card">
+            <div class="skill-header">
+              <div class="skill-icon-box skill-icon-tools">
+                <i class="bi bi-tools"></i>
+              </div>
+              <div>
+                <h3 class="h6 fw-bold mb-0 text-dark">Tools</h3>
+                <small class="text-muted font-mono">Workflow &amp; IDEs</small>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> Git</span>
+                <span class="skill-level-text">Branch &amp; Merge</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> GitHub / GitLab</span>
+                <span class="skill-level-text">Collaboration</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 82%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> IntelliJ / NetBeans</span>
+                <span class="skill-level-text">Java IDEs</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 88%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-check2"></i> SSMS / VS</span>
+                <span class="skill-level-text">Daily Driver</span>
+              </div>
+              <div class="custom-progress">
+                <div class="custom-progress-bar" style="width: 84%"></div>
+              </div>
+            </div>
+
+            <div class="skill-badges-group">
+              <span class="skill-badge">Postman</span>
+              <span class="skill-badge">VS Code</span>
+              <span class="skill-badge">Git CLI</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. EDUCATION
+       ========================================================================= -->
+  <section id="education" class="section-padding bg-white">
+    <div class="container">
+      
+      <!-- Section Heading -->
+      <div class="text-center mb-5">
+        <span class="section-tag">// ACADEMIC BACKGROUND</span>
+        <h2 class="section-title">Education</h2>
+        <p class="section-subtitle mx-auto">
+          Formal engineering foundation covering core computer science principles, database design, software architecture, and web systems.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          
+          <div class="timeline">
+            <!-- Timeline Item: FPT University -->
+            <div class="timeline-item">
+              <div class="timeline-dot">
+                <i class="bi bi-mortarboard-fill text-primary" style="font-size: 0.75rem;"></i>
+              </div>
+
+              <div class="timeline-card">
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-2">
+                  <span class="timeline-period">2022 — Present</span>
+                  <span class="badge bg-light text-primary border font-mono">Undergraduate Degree</span>
+                </div>
+
+                <h3 class="timeline-title">FPT University</h3>
+                <div class="timeline-subtitle">
+                  <i class="bi bi-book text-primary"></i>
+                  <span>Software Engineering (Bachelor of Science)</span>
+                </div>
+
+                <p class="timeline-desc">
+                  Studying software engineering with a focus on programming, databases, web development, software architecture and application development. Actively participating in group software projects, algorithm problem sets, and practical backend labs.
+                </p>
+
+                <!-- Relevant Subjects Pills -->
+                <div class="mb-2 fw-semibold text-dark small">Relevant Coursework:</div>
+                <div class="timeline-tags">
+                  <span class="timeline-tag">Object-Oriented Programming (OOP)</span>
+                  <span class="timeline-tag">Database Systems (DBI)</span>
+                  <span class="timeline-tag">Web Development (PRJ)</span>
+                  <span class="timeline-tag">Software Engineering (SWE)</span>
+                  <span class="timeline-tag">Data Structures &amp; Algorithms (CSD)</span>
+                  <span class="timeline-tag">System Design &amp; Architecture</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. EXPERIENCE (Academic & Project Experience)
+       ========================================================================= -->
+  <section id="experience" class="section-padding bg-light tech-grid-bg">
+    <div class="container">
+      
+      <!-- Section Heading -->
+      <div class="text-center mb-5">
+        <span class="section-tag">// PRACTICE &amp; PROJECTS</span>
+        <h2 class="section-title">Experience</h2>
+        <p class="section-subtitle mx-auto">
+          Academic coursework and dedicated personal development. Rigorous project-based practice without fabricated employment claims.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          
+          <div class="timeline">
+            
+            <!-- Item 1: Software Engineering Student -->
+            <div class="timeline-item">
+              <div class="timeline-dot">
+                <i class="bi bi-laptop-fill text-primary" style="font-size: 0.75rem;"></i>
+              </div>
+
+              <div class="timeline-card">
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-2">
+                  <span class="timeline-period">2022 — Present</span>
+                  <span class="badge bg-light text-secondary border font-mono">Academic Projects</span>
+                </div>
+
+                <h3 class="timeline-title">Software Engineering Student</h3>
+                <div class="timeline-subtitle">
+                  <i class="bi bi-building text-primary"></i>
+                  <span>FPT University</span>
+                </div>
+
+                <p class="timeline-desc">
+                  Collaborated within student engineering teams to deliver full-cycle software prototypes, adhering to Agile principles, Git branching workflows, and clean code conventions.
+                </p>
+
+                <div class="mb-2 fw-semibold text-dark small">Key Responsibilities &amp; Learnings:</div>
+                <ul class="timeline-bullet-list">
+                  <li>Develop academic software projects from requirement analysis to working demos.</li>
+                  <li>Design relational databases with normalized schemas, foreign keys, and indexes.</li>
+                  <li>Build Java web applications utilizing Servlet, JSP, and standard libraries.</li>
+                  <li>Work with MVC architecture to maintain clean separation of concerns.</li>
+                  <li>Practice Git and version control for team collaboration and branch merging.</li>
+                  <li>Collaborate in team projects, conduct code walkthroughs, and resolve merge conflicts.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Item 2: Personal Development & Self-Study -->
+            <div class="timeline-item">
+              <div class="timeline-dot">
+                <i class="bi bi-code-slash text-primary" style="font-size: 0.75rem;"></i>
+              </div>
+
+              <div class="timeline-card">
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-2">
+                  <span class="timeline-period">Ongoing Self-Directed Study</span>
+                  <span class="badge bg-light text-primary border font-mono">Continuous Growth</span>
+                </div>
+
+                <h3 class="timeline-title">Personal Development</h3>
+                <div class="timeline-subtitle">
+                  <i class="bi bi-gear-fill text-primary"></i>
+                  <span>Backend Development &amp; Modern Frameworks</span>
+                </div>
+
+                <p class="timeline-desc">
+                  Dedicated self-study into enterprise Java, clean architectural patterns, modern RESTful design, and relational database performance tuning.
+                </p>
+
+                <div class="mb-2 fw-semibold text-dark small">Core Areas of Focus:</div>
+                <div class="timeline-tags">
+                  <span class="timeline-tag">Java 17+ Standards</span>
+                  <span class="timeline-tag">Spring Boot 3</span>
+                  <span class="timeline-tag">Spring Data JPA &amp; Hibernate</span>
+                  <span class="timeline-tag">RESTful API Design</span>
+                  <span class="timeline-tag">SQL Optimization</span>
+                  <span class="timeline-tag">Software Architecture &amp; SOLID</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. PROJECTS
+       ========================================================================= -->
+  <section id="projects" class="section-padding bg-white">
+    <div class="container">
+      
+      <!-- Section Heading -->
+      <div class="text-center mb-5">
+        <span class="section-tag">// PORTFOLIO WORK</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle mx-auto">
+          Practical applications built to explore backend architecture, database modeling, authentication, and user experience.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        
+        <!-- PROJECT 1: Cinema Booking System -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="project-img-container">
+              <img src="assets/images/project-cinema.svg" alt="Cinema Booking System Mockup" class="project-img">
+              <span class="project-badge-overlay">C# / ASP.NET Core</span>
+            </div>
+
+            <div class="project-body">
+              <div class="project-category">C# • ASP.NET Core • MVC</div>
+              <h3 class="project-title">Cinema Booking System</h3>
+              <p class="project-desc">
+                A web-based cinema booking application built with <strong>C# and ASP.NET Core MVC</strong> for managing movies, showtimes, auditoriums, and customer bookings. Includes an interactive seat selection grid, Entity Framework Core data access, and automated seat-locking transactions.
+              </p>
+
+              <!-- Technologies -->
+              <div class="project-tech-stack">
+                <span class="tech-tag text-primary fw-bold">C#</span>
+                <span class="tech-tag text-primary fw-bold">ASP.NET Core</span>
+                <span class="tech-tag">Entity Framework Core</span>
+                <span class="tech-tag">SQL Server</span>
+                <span class="tech-tag">MVC</span>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-footer">
+                <button type="button" class="btn btn-project-view" data-bs-toggle="modal" data-bs-target="#projectModal2">
+                  <i class="bi bi-info-circle"></i>
+                  <span>View Details</span>
+                </button>
+                <a href="https://github.com/PhanHoangA" target="_blank" rel="noopener noreferrer" class="btn btn-project-code" aria-label="GitHub Repository for Cinema Booking">
+                  <i class="bi bi-github"></i>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2: Restaurant Table Reservation -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="project-img-container">
+              <img src="assets/images/project-restaurant.svg" alt="Restaurant Table Reservation Mockup" class="project-img">
+              <span class="project-badge-overlay">Spring Boot REST</span>
+            </div>
+
+            <div class="project-body">
+              <div class="project-category">Spring Boot • MySQL</div>
+              <h3 class="project-title">Restaurant Table Reservation</h3>
+              <p class="project-desc">
+                A reservation management system for customers, restaurants, tables and booking status. Engineered with Spring Boot, Spring Data JPA, RESTful endpoints, and automatic time-slot availability calculation.
+              </p>
+
+              <!-- Technologies -->
+              <div class="project-tech-stack">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Spring Data JPA</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Bootstrap</span>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-footer">
+                <button type="button" class="btn btn-project-view" data-bs-toggle="modal" data-bs-target="#projectModal3">
+                  <i class="bi bi-info-circle"></i>
+                  <span>View Details</span>
+                </button>
+                <a href="https://github.com/PhanHoangA" target="_blank" rel="noopener noreferrer" class="btn btn-project-code" aria-label="GitHub Repository for Restaurant Reservation">
+                  <i class="bi bi-github"></i>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 3: Student Attendance Management -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="project-img-container">
+              <img src="assets/images/project-attendance.svg" alt="Student Attendance Management Mockup" class="project-img">
+              <span class="project-badge-overlay">C# / .NET Desktop App</span>
+            </div>
+
+            <div class="project-body">
+              <div class="project-category">C# • .NET 8 • WPF • EF Core</div>
+              <h3 class="project-title">Student Attendance Management</h3>
+              <p class="project-desc">
+                A native desktop system for managing students, courses, schedules, and attendance records, built completely in <strong>C# and .NET</strong> (not Java). Features MVVM architecture, two-way WPF data binding, Entity Framework Core ORM, and SQL Server persistence.
+              </p>
+
+              <!-- Technologies -->
+              <div class="project-tech-stack">
+                <span class="tech-tag text-primary fw-bold">C#</span>
+                <span class="tech-tag text-primary fw-bold">.NET 8</span>
+                <span class="tech-tag">WPF (XAML)</span>
+                <span class="tech-tag">Entity Framework</span>
+                <span class="tech-tag">SQL Server</span>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-footer">
+                <button type="button" class="btn btn-project-view" data-bs-toggle="modal" data-bs-target="#projectModal4">
+                  <i class="bi bi-info-circle"></i>
+                  <span>View Details</span>
+                </button>
+                <a href="https://github.com/PhanHoangA" target="_blank" rel="noopener noreferrer" class="btn btn-project-code" aria-label="GitHub Repository for Attendance System">
+                  <i class="bi bi-github"></i>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       8. GITHUB / CODING SECTION ("Code. Learn. Build. Repeat.")
+       ========================================================================= -->
+  <section id="terminal" class="section-padding terminal-section">
+    <div class="container">
+      
+      <!-- Section Heading -->
+      <div class="text-center mb-5">
+        <span class="section-tag">// DEVELOPER CONSOLE</span>
+        <h2 class="section-title">Code. Learn. Build. Repeat.</h2>
+        <p class="section-subtitle mx-auto">
+          An interactive terminal window reflecting daily software development routines, continuous integration habits, and passion for clean engineering.
+        </p>
+      </div>
+
+      <!-- Terminal Window Component -->
+      <div class="terminal-window">
+        <!-- Title bar -->
+        <div class="terminal-title-bar">
+          <div class="window-dots">
+            <span class="window-dot dot-red"></span>
+            <span class="window-dot dot-yellow"></span>
+            <span class="window-dot dot-green"></span>
+          </div>
+          <div class="terminal-user">
+            <i class="bi bi-terminal-fill me-1"></i> an@fpt-se-workstation:~ (bash)
+          </div>
+          <button id="clearTerminalBtn" class="btn btn-sm text-secondary p-0 border-0 font-mono" title="Reset Terminal">
+            <i class="bi bi-arrow-counterclockwise"></i> reset
+          </button>
+        </div>
+
+        <!-- Terminal Body -->
+        <div class="terminal-body" id="terminal-content">
+          <div class="cmd-line">
+            <span class="cmd-prompt">an@fpt-se:~$</span>
+            <span class="cmd-text">git status</span>
+          </div>
+          <div class="cmd-output info">
+            &gt; Building new projects...
+          </div>
+
+          <div class="cmd-line">
+            <span class="cmd-prompt">an@fpt-se:~$</span>
+            <span class="cmd-text">java Developer.java</span>
+          </div>
+          <div class="cmd-output info">
+            &gt; Learning backend development...
+          </div>
+
+          <div class="cmd-line">
+            <span class="cmd-prompt">an@fpt-se:~$</span>
+            <span class="cmd-text">git commit -m "keep learning"</span>
+          </div>
+          <div class="cmd-output success">
+            &gt; Successfully committed.
+          </div>
+        </div>
+
+        <!-- Interactive Terminal Command Triggers -->
+        <div class="p-3 bg-dark border-top border-secondary border-opacity-25">
+          <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+            <span class="text-muted small font-mono">
+              <i class="bi bi-cursor-fill me-1 text-primary"></i> Click command to run:
+            </span>
+            <div class="terminal-actions mt-0 pt-0 border-0">
+              <button class="btn-terminal-cmd" data-cmd="git status">$ git status</button>
+              <button class="btn-terminal-cmd" data-cmd="java Developer.java">$ java Developer.java</button>
+              <button class="btn-terminal-cmd" data-cmd="git commit -m &quot;keep learning&quot;">$ git commit</button>
+              <button class="btn-terminal-cmd" data-cmd="mvn test">$ mvn test</button>
+              <button class="btn-terminal-cmd" data-cmd="cat goals.txt">$ cat goals.txt</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       9. CONTACT SECTION
+       ========================================================================= -->
+  <section id="contact" class="section-padding bg-light tech-grid-bg">
+    <div class="container">
+      
+      <!-- Section Heading -->
+      <div class="text-center mb-5">
+        <span class="section-tag">// GET IN TOUCH</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle mx-auto">
+          I'm always interested in learning, building projects, and connecting with people who share the same passion for technology.
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        
+        <!-- Left: Contact Information Cards -->
+        <div class="col-lg-5">
+          <div class="contact-info-card d-flex flex-direction-column justify-content-between">
+            <div>
+              <h3 class="h5 fw-bold mb-4 text-dark">Contact Information</h3>
+
+              <!-- Email -->
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <i class="bi bi-envelope-fill"></i>
+                </div>
+                <div>
+                  <div class="contact-label">Email</div>
+                  <div class="contact-value font-mono">anphan622@gmail.com</div>
+                  <button id="copyEmailBtn" class="btn btn-sm btn-outline-secondary mt-1 py-0 px-2 font-mono" style="font-size: 0.75rem;">
+                    <i class="bi bi-clipboard"></i> Copy email
+                  </button>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <i class="bi bi-telephone-fill"></i>
+                </div>
+                <div>
+                  <div class="contact-label">Phone</div>
+                  <a href="tel:0369490800" class="contact-value font-mono">
+                    0369490800
+                  </a>
+                </div>
+              </div>
+
+              <!-- GitHub -->
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <i class="bi bi-github"></i>
+                </div>
+                <div>
+                  <div class="contact-label">GitHub</div>
+                  <a href="https://github.com/PhanHoangA" target="_blank" rel="noopener noreferrer" class="contact-value font-mono">
+                    github.com/PhanHoangA
+                  </a>
+                </div>
+              </div>
+
+              <!-- LinkedIn -->
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <i class="bi bi-linkedin"></i>
+                </div>
+                <div>
+                  <div class="contact-label">LinkedIn</div>
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-value font-mono">
+                    linkedin.com/in/hoangan-se
+                  </a>
+                </div>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div>
+                  <div class="contact-label">Location</div>
+                  <div class="contact-value">FPT University Campus, Vietnam</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Internship Availability Box -->
+            <div class="p-3 mt-4 rounded-3 border" style="background-color: #f8fafc;">
+              <div class="d-flex align-items-center gap-2 mb-1">
+                <span class="status-dot"></span>
+                <span class="fw-bold text-dark small">Open to Internship Opportunities</span>
+              </div>
+              <p class="text-muted small mb-0">
+                Looking for Junior / Intern Backend Developer positions where I can contribute to real-world Java &amp; SQL systems and expand my engineering skills.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="col-lg-7">
+          <div class="contact-form-card">
+            <h3 class="h5 fw-bold mb-4 text-dark">Send a Message</h3>
+
+            <!-- Form Success Notification Banner -->
+            <div id="formSuccessAlert" class="alert alert-success d-none mb-4" role="alert">
+              <i class="bi bi-check-circle-fill me-2"></i>
+              <strong>Thank you!</strong> Your message has been simulated successfully. I will get back to you promptly.
+            </div>
+
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <!-- Name -->
+                <div class="col-md-6">
+                  <label for="contactName" class="form-label">Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="contactName" placeholder="Your name" required>
+                  <div class="invalid-feedback">Please provide your name.</div>
+                </div>
+
+                <!-- Email -->
+                <div class="col-md-6">
+                  <label for="contactEmail" class="form-label">Email <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com" required>
+                  <div class="invalid-feedback">Please provide a valid email address.</div>
+                </div>
+
+                <!-- Subject -->
+                <div class="col-12">
+                  <label for="contactSubject" class="form-label">Subject <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="contactSubject" placeholder="Internship opportunity, project inquiry, etc." required>
+                  <div class="invalid-feedback">Please enter a subject.</div>
+                </div>
+
+                <!-- Message -->
+                <div class="col-12">
+                  <label for="contactMessage" class="form-label">Message <span class="text-danger">*</span></label>
+                  <textarea class="form-control" id="contactMessage" rows="5" placeholder="Hi An, I came across your portfolio and would like to connect..." required></textarea>
+                  <div class="invalid-feedback">Please write a message.</div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-12">
+                  <button type="submit" class="btn btn-send-message">
+                    <span>Send Message</span>
+                    <i class="bi bi-send-fill"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       10. FOOTER
+       ========================================================================= -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        
+        <!-- Left: Logo & Motto -->
+        <div class="col-md-6 text-center text-md-start">
+          <div class="footer-brand">
+            &lt;<span class="text-info">AN</span> /&gt; <span class="fs-6 fw-normal text-secondary">— Software Engineering Student</span>
+          </div>
+          <p class="footer-quote">
+            "Building skills today, creating solutions tomorrow."
+          </p>
+        </div>
+
+        <!-- Right: Social Links & Navigation -->
+        <div class="col-md-6 text-center text-md-end">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3 mb-3">
+            <a href="https://github.com/PhanHoangA" target="_blank" rel="noopener noreferrer" class="social-pill text-light" style="background: #1e293b; border-color: #334155;" aria-label="GitHub">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-pill text-light" style="background: #1e293b; border-color: #334155;" aria-label="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:anphan622@gmail.com" class="social-pill text-light" style="background: #1e293b; border-color: #334155;" aria-label="Email">
+              <i class="bi bi-envelope-fill"></i>
+            </a>
+            <a href="tel:0369490800" class="social-pill text-light" style="background: #1e293b; border-color: #334155;" aria-label="Phone">
+              <i class="bi bi-telephone-fill"></i>
+            </a>
+          </div>
+          <ul class="footer-nav justify-content-center justify-content-md-end">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom text-center">
+        <p class="mb-0">
+          &copy; 2026 Hoang An. All rights reserved. Built with HTML5, CSS3, Bootstrap 5 &amp; Vanilla JavaScript.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       PROJECT DETAILS MODALS (Bootstrap 5)
+       ========================================================================= -->
+
+  <!-- Modal 1: Cinema Booking System -->
+  <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title fs-5 fw-bold" id="projectModal2Label">
+            <i class="bi bi-film text-primary me-2"></i> Cinema Booking System (C# / ASP.NET Core)
+          </h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <img src="assets/images/project-cinema.svg" alt="Cinema Booking System" class="img-fluid rounded-3 border">
+          </div>
+          <h5 class="fw-bold text-dark">Project Overview</h5>
+          <p class="text-muted">
+            A comprehensive web application designed for multiplex movie theaters to manage film screenings, auditorium configurations, and real-time ticket reservations with seat locking, developed with <strong>C# and ASP.NET Core MVC</strong>.
+          </p>
+          <h6 class="fw-bold text-dark mt-3">Architectural Highlights &amp; Features:</h6>
+          <ul class="text-muted small">
+            <li><strong>ASP.NET Core MVC Architecture:</strong> Clean separation of concerns with Controllers, Models, and strongly typed Razor Views.</li>
+            <li><strong>Interactive Seat Matrix:</strong> Visual seating grid generated dynamically from auditorium capacities with real-time seat lock verification.</li>
+            <li><strong>Entity Framework Core:</strong> Handles data models, migrations, and transactional seat booking to prevent double-booking collisions.</li>
+            <li><strong>Showtime Scheduling &amp; Admin:</strong> Role-based access for theater staff to schedule movie screenings, assign halls, and generate booking invoices.</li>
+          </ul>
+          <div class="d-flex flex-wrap gap-2 mt-3">
+            <span class="badge bg-primary">C#</span>
+            <span class="badge text-white" style="background-color: #6366f1 !important;">ASP.NET Core</span>
+            <span class="badge bg-dark">Entity Framework Core</span>
+            <span class="badge bg-secondary">SQL Server</span>
+            <span class="badge bg-light text-dark border">MVC Pattern</span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+          <a href="https://github.com/PhanHoangA" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <i class="bi bi-github me-1"></i> View Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Restaurant Table Reservation -->
+  <div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title fs-5 fw-bold" id="projectModal3Label">
+            <i class="bi bi-calendar2-check-fill text-primary me-2"></i> Restaurant Table Reservation
+          </h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <img src="assets/images/project-restaurant.svg" alt="Restaurant Reservation" class="img-fluid rounded-3 border">
+          </div>
+          <h5 class="fw-bold text-dark">Project Overview</h5>
+          <p class="text-muted">
+            A modern RESTful backend service built on the Spring ecosystem to streamline table bookings, guest count management, and dining slot availability in real time.
+          </p>
+          <h6 class="fw-bold text-dark mt-3">Architectural Highlights &amp; Features:</h6>
+          <ul class="text-muted small">
+            <li><strong>Spring Boot &amp; RESTful APIs:</strong> Clean REST controllers adhering to HTTP semantics and standardized JSON responses.</li>
+            <li><strong>Spring Data JPA:</strong> Automated repository queries with custom JPQL methods for overlapping time-slot verification.</li>
+            <li><strong>Validation &amp; Error Handling:</strong> Comprehensive DTO validation via Hibernate Validator and global @ControllerAdvice.</li>
+            <li><strong>Status Management:</strong> Lifecycle transitions for bookings: PENDING → CONFIRMED → SEATED → COMPLETED / CANCELLED.</li>
+          </ul>
+          <div class="d-flex flex-wrap gap-2 mt-3">
+            <span class="badge bg-success">Spring Boot</span>
+            <span class="badge bg-primary">Java 17</span>
+            <span class="badge bg-secondary">Spring Data JPA</span>
+            <span class="badge bg-warning text-dark">MySQL</span>
+            <span class="badge bg-dark">REST API</span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+          <a href="https://github.com/PhanHoangA" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <i class="bi bi-github me-1"></i> View Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Student Attendance Management -->
+  <div class="modal fade" id="projectModal4" tabindex="-1" aria-labelledby="projectModal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title fs-5 fw-bold" id="projectModal4Label">
+            <i class="bi bi-person-check-fill text-primary me-2"></i> Student Attendance Management (C# / .NET)
+          </h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <img src="assets/images/project-attendance.svg" alt="Student Attendance Management" class="img-fluid rounded-3 border">
+          </div>
+          <h5 class="fw-bold text-dark">Project Overview</h5>
+          <p class="text-muted">
+            A native Windows desktop application built with <strong>C# and .NET</strong> (independent of Java) to automate student roll calls, course enrolments, absent quotas, and academic report exports.
+          </p>
+          <h6 class="fw-bold text-dark mt-3">Architectural Highlights &amp; Features:</h6>
+          <ul class="text-muted small">
+            <li><strong>Built with C# &amp; .NET 8:</strong> Leverages the modern .NET desktop runtime, typed C# records, and LINQ queries.</li>
+            <li><strong>WPF MVVM Architecture:</strong> Two-way XAML data binding with INotifyPropertyChanged and RelayCommands for responsive UI.</li>
+            <li><strong>Entity Framework Core:</strong> Code-first migration workflow with SQL Server backend and LINQ optimization.</li>
+            <li><strong>Attendance Quota Calculation:</strong> Automatically flags students whose absentee rate approaches the 20% course threshold.</li>
+            <li><strong>Data Exporting:</strong> Direct export of attendance sheets to formatted Excel spreadsheets for university administration.</li>
+          </ul>
+          <div class="d-flex flex-wrap gap-2 mt-3">
+            <span class="badge bg-primary">C#</span>
+            <span class="badge bg-secondary" style="background-color: #6366f1 !important;">.NET 8</span>
+            <span class="badge bg-info text-dark">WPF (XAML)</span>
+            <span class="badge bg-dark">Entity Framework Core</span>
+            <span class="badge bg-light text-dark border">SQL Server</span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+          <a href="https://github.com/PhanHoangA" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <i class="bi bi-github me-1"></i> View Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Floating Button -->
+  <button id="backToTopBtn" class="back-to-top" title="Back to top" aria-label="Back to top">
+    <i class="bi bi-arrow-up-short fs-4"></i>
+  </button>
+
+  <!-- Bootstrap 5.3.3 Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
